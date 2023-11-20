@@ -1,0 +1,6 @@
+$$__encoding: "utf-8"$%     ? encoding
+$$title__: "setupTutorial"$%    ? title
+
+[0] package "setupTutorial"%
+
+[1] import "srs"   ? importing "Simple Raw Strings" library
