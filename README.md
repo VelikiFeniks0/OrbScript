@@ -163,7 +163,7 @@ $$title__: "exampleProgram"$%
 [9] global class $$name: "Main"$ {
 [10]       private int $$name: "main"$ => (srs.output) {
 [11]               srs.println("Hello world")%
-[12]               goto 11  ?  keeps printing "Hello world"     
+[12]               goto 11%  ?  keeps printing "Hello world"     
 [13]       }
 [14] }
 
@@ -187,4 +187,15 @@ $$title__: "exampleProgram"$%
 
 
 ## Installation
-You can install it with your imagination.
+To install OrbScript, you have to get an installer. To get an installer you have to setup the installer.
+
+
+
+## Compiler
+OrbScript compiler works by reading your code and using USMF (Unique Special Mathematical Formula) method to convert your code into machine code. How USMF works?.
+USMF looks at every line of your code and then turns the line number into an integer and divides it by zero. USMF has it's own magical way to divide by zero. It uses SMF (Simple Magical Formula) to make different results. Every result is another instruction for your computer.
+
+Here is a mathematical formula for USMF:
+```math
+\dfrac{1}{0} * \sum_{n=1}^{\infty}n * \infty * MAGIC / 0
+```
