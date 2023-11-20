@@ -1,0 +1,23 @@
+$$__encoding: "utf-8"$%     ? encoding
+$$title__: "setupTutorial"$%    ? title
+
+[0] package "setupTutorial"%
+
+[1] import "srs"   ? importing "Simple Raw Strings" library
+
+
+[2] global class $$name: "defineClass"$ {
+[3]        global class $$name: "run"$ {  
+[4]               global void $$name: "return"$ => (return args[]) {
+[5]                      return args%
+[6]               }
+[7]        }
+[8] }
+
+[9] global class $$name: "Main"$ {
+[10]       global void $$name: "print"$ => (srs.output) {
+[11]              srs.println("hello world")%
+[12]       }
+[13] }
+
+[14] run().Main()
