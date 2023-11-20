@@ -1,0 +1,12 @@
+$$__encoding: "utf-8"$%     ? encoding
+$$title__: "setupTutorial"$%    ? title
+
+[0] package "setupTutorial"%
+
+[1] import "srs"   ? importing "Simple Raw Strings" library
+
+
+[2] global class $$name: "defineClass"$ {
+[3]        global class $$name: "run"$ {  
+[4]        }
+[5] }
